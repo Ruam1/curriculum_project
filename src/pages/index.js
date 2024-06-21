@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import './style.css';
-import Header from '../components/Header/index';
+import React from "react";
+import "./style.css";
+import Main from "../components/Main/index";
+import Body from "../components/Body/index";
 
-const Page = (  ) => {
-
+const Page = () => {
   return (
     <>
-      <Header />
-      {/* <Menu /> */}
-      {/* <Footer /> */}
+      <Main />
+      <Body>
+        {/* <Menu /> */}
+        {/* <Footer /> */}
+      </Body>
     </>
   );
-}
+};
 
 export default Page;
