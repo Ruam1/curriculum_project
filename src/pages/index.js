@@ -7,10 +7,7 @@ const Page = () => {
   return (
     <>
       <Main />
-      <Body>
-        {/* <Menu /> */}
-        {/* <Footer /> */}
-      </Body>
+      <Body></Body>
     </>
   );
 };
