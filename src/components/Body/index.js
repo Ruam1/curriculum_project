@@ -3,18 +3,18 @@ import styled from "styled-components";
 import Header from "../Header/index";
 import Home from "../Start/index";
 import About from "../About/index";
+import Skill from "../Skill/index";
 import Project from "../Project/index";
 import Contact from "../Contact/index";
-import "./style.js";
 
 const BodyDiv = styled.div`
   width: auto;
-  height: 870px;
-  overflow: hidden;
+  height: 95vh;
   margin: 20px;
   z-index: 1;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.5);
+  overflow: auto;
 `;
 
 const Body = () => {
@@ -23,6 +23,9 @@ const Body = () => {
       <BodyDiv>
         <Header />
         <Home />
+        <About />
+        <Skill />
+        <Project />
       </BodyDiv>
     </>
   );

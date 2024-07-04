@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 90%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -47,4 +54,26 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Botão da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Botão da barra de rolagem quando em hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

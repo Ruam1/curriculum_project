@@ -9,7 +9,7 @@ const Div = styled.div`
   display: flex;
   justify-content: center;
   aling-items: center;
-  margin: 20px;
+  margin: 20px 20px 5% 20px;
   .one {
     height: 70vh;
     width: 50%;
@@ -61,14 +61,6 @@ const Div = styled.div`
 const Image = styled.img`
   width: 100%;
   height: 50%;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-`;
-
-const ImageLink = styled.img`
-  width: 50%;
-  height: 100%;
   top: 0;
   left: 0;
   object-fit: cover;
